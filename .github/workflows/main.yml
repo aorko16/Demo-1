@@ -1,0 +1,15 @@
+name: my_first_app
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  first-workflow:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: First step
+        run: |
+          echo "Hello, World"
+          echo "Hello Aorko"
