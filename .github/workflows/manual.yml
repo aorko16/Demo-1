@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  manual-worklow:
+  manual-worklow-test:
     runs-on: ubuntu-latest
 
     steps:
