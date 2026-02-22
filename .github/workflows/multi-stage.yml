@@ -1,0 +1,27 @@
+name: Multi-Build-stage
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  first-workflow-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: First step
+        run: |
+          echo "First Step"
+          echo "Hello, World"
+         
+  
+  second-workflow-job:
+   runs-on: ubuntu-latest
+
+   steps:
+    - name: Second step
+      run: |
+       echo "Second Step"
+       echo "Hello, World"
+     
+       
